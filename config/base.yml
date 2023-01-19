@@ -298,6 +298,10 @@ Metrics/MethodLength:
 
 Metrics/ModuleLength:
   Enabled: true
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
 
 Metrics/ParameterLists:
   Enabled: true
