@@ -450,6 +450,9 @@ RSpec/SortMetadata:
 RSpec/VerifiedDoubles:
   Enabled: false
 
+Rails/ActionControllerFlashBeforeRender:
+  Enabled: false
+
 Rails/BulkChangeTable:
   Enabled: false
 
