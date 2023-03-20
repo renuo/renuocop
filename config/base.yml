@@ -823,9 +823,6 @@ Style/WhileUntilModifier:
 Style/WordArray:
   Enabled: true
 
-Style/YodaExpression:
-  Enabled: true
-
 Style/ZeroLengthPredicate:
   Enabled: true
 
