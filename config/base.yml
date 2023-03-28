@@ -605,6 +605,7 @@ Style/HashLikeCase:
 
 Style/HashSyntax:
   Enabled: true
+  EnforcedShorthandSyntax: either
   EnforcedStyle: ruby19
 
 Style/HashTransformKeys:
