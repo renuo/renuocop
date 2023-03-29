@@ -414,6 +414,14 @@ Performance/TimesMap:
 RSpec/AnyInstance:
   Enabled: false
 
+RSpec/ContextWording:
+  Prefixes:
+    - when
+    - with
+    - without
+    - and
+    - but
+
 RSpec/DescribeClass:
   Exclude:
     - 'spec/system/**/*'
