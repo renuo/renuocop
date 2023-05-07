@@ -23,9 +23,18 @@ Or install it yourself as:
 
 ## Usage
 
-To run renuocop on your project, just run:
+To run renuocop on your project, install first `rubocop`
 
-    $ bundle exec renuocop
+Then create a .rubocop.yml
+
+```yaml
+inherit_gem:
+  renuocop: config/base.yml
+```
+
+And then run it with
+
+    $ bundle exec rubocop -c .rubocop.yml
 
 ## Development
 
