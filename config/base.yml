@@ -458,6 +458,9 @@ RSpec/SortMetadata:
 RSpec/VerifiedDoubles:
   Enabled: false
 
+RSpec/IndexedLet:
+  Enabled: false
+
 Rails/ActionControllerFlashBeforeRender:
   Enabled: false
 
