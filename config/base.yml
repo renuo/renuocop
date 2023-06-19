@@ -23,7 +23,7 @@ Gemspec/DuplicatedAssignment:
   Enabled: true
 
 Gemspec/OrderedDependencies:
-  Enabled: true
+  Enabled: false
 
 Gemspec/RequireMFA:
   Enabled: true
