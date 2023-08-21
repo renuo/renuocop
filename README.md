@@ -23,12 +23,12 @@ Or install it yourself as:
 
 ## Usage
 
-To run renuocop on your project, install first both, `rubocop` and `renuocop`
+To run renuocop on your project, add `renuocop` into your gem files
 
 ```ruby
 group :development, :test do
-  gem 'rubocop'
-  gem 'renuocop'end
+  gem 'renuocop'
+end
 ```
 
 Then create a .rubocop.yml
