@@ -23,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-To run renuocop on your project, add `renuocop` into your gem files
+To run renuocop on your project, add `renuocop` to your Gemfile
 
 ```ruby
 group :development, :test do
