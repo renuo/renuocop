@@ -458,6 +458,9 @@ RSpec/SortMetadata:
 RSpec/VerifiedDoubles:
   Enabled: false
 
+Capybara/ClickLinkOrButtonStyle:
+    Enabled: false
+
 Rails/ActionControllerFlashBeforeRender:
   Enabled: false
 
