@@ -40,7 +40,7 @@ inherit_gem:
 
 And then run it with
 
-    $ bundle exec renuocop
+    $ bundle exec rubocop
 
 ## Development
 
