@@ -7,23 +7,8 @@ require:
 inherit_gem:
   standard: config/base.yml
 
-Bundler/DuplicatedGem:
-  Enabled: true
-
 Bundler/GemFilename:
   Enabled: true
-
-Bundler/InsecureProtocolSource:
-  Enabled: true
-
-Gemspec/DeprecatedAttributeAssignment:
-  Enabled: true
-
-Gemspec/DuplicatedAssignment:
-  Enabled: true
-
-Gemspec/OrderedDependencies:
-  Enabled: false
 
 Gemspec/RequireMFA:
   Enabled: true
@@ -74,9 +59,6 @@ Layout/FirstParameterIndentation:
 Layout/LineContinuationLeadingSpace:
   Enabled: true
 
-Layout/LineContinuationSpacing:
-  Enabled: true
-
 Layout/LineEndStringConcatenationIndentation:
   Enabled: true
 
@@ -102,9 +84,6 @@ Layout/SpaceInsideHashLiteralBraces:
 Layout/TrailingWhitespace:
   AllowInHeredoc: false
 
-Lint/AmbiguousAssignment:
-  Enabled: true
-
 Lint/AmbiguousBlockAssociation:
   Enabled: true
 
@@ -114,22 +93,10 @@ Lint/AmbiguousOperatorPrecedence:
 Lint/AmbiguousRange:
   Enabled: true
 
-Lint/ConstantOverwrittenInRescue:
-  Enabled: true
-
-Lint/DeprecatedConstants:
-  Enabled: true
-
 Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
 
 Lint/DuplicateBranch:
-  Enabled: true
-
-Lint/DuplicateMagicComment:
-  Enabled: true
-
-Lint/DuplicateRegexpCharacterClassElement:
   Enabled: true
 
 Lint/EmptyBlock:
@@ -168,12 +135,6 @@ Lint/NoReturnInBeginEndBlocks:
 Lint/NonAtomicFileOperation:
   Enabled: true
 
-Lint/NumberedParameterAssignment:
-  Enabled: true
-
-Lint/OrAssignmentToConstant:
-  Enabled: true
-
 Lint/PercentStringArray:
   Enabled: true
 
@@ -187,15 +148,6 @@ Lint/RedundantDirGlobSort:
   Enabled: true
 
 Lint/RedundantSafeNavigation:
-  Enabled: true
-
-Lint/RefinementImportMethods:
-  Enabled: true
-
-Lint/RequireRangeParentheses:
-  Enabled: true
-
-Lint/RequireRelativeSelfPath:
   Enabled: true
 
 Lint/SafeNavigationChain:
@@ -222,25 +174,16 @@ Lint/StructNewOverride:
 Lint/SuppressedException:
   Enabled: true
 
-Lint/SymbolConversion:
-  Enabled: true
-
 Lint/ToEnumArguments:
   Enabled: true
 
 Lint/ToJSON:
   Enabled: true
 
-Lint/TripleQuotes:
-  Enabled: true
-
 Lint/UnexpectedBlockArity:
   Enabled: true
 
 Lint/UnmodifiedReduceAccumulator:
-  Enabled: true
-
-Lint/UnreachableLoop:
   Enabled: true
 
 Lint/UnusedBlockArgument:
@@ -256,9 +199,6 @@ Lint/UselessElseWithoutRescue:
   Enabled: true
 
 Lint/UselessMethodDefinition:
-  Enabled: true
-
-Lint/UselessRuby2Keywords:
   Enabled: true
 
 Metrics/AbcSize:
@@ -485,9 +425,6 @@ Rails/SkipsModelValidations:
   Exclude:
     - 'spec/**/*.rb'
 
-Security/CompoundHash:
-  Enabled: true
-
 Security/IoMethods:
   Enabled: true
 
@@ -502,9 +439,6 @@ Style/AccessorGrouping:
 
 Style/Alias:
   EnforcedStyle: prefer_alias
-
-Style/ArgumentsForwarding:
-  Enabled: true
 
 Style/ArrayIntersect:
   Enabled: true
@@ -581,12 +515,6 @@ Style/ExponentialNotation:
 Style/FetchEnvVar:
   Enabled: true
 
-Style/FileRead:
-  Enabled: true
-
-Style/FileWrite:
-  Enabled: true
-
 Style/FloatDivision:
   Enabled: true
 
@@ -602,13 +530,7 @@ Style/FrozenStringLiteralComment:
 Style/GuardClause:
   Enabled: true
 
-Style/HashConversion:
-  Enabled: true
-
 Style/HashEachMethods:
-  Enabled: true
-
-Style/HashExcept:
   Enabled: true
 
 Style/HashLikeCase:
@@ -624,9 +546,6 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enabled: true
 
-Style/IfWithBooleanLiteralBranches:
-  Enabled: true
-
 Style/InPatternThen:
   Enabled: true
 
@@ -637,9 +556,6 @@ Style/Lambda:
   Enabled: true
 
 Style/MagicCommentFormat:
-  Enabled: true
-
-Style/MapCompactWithConditionalBlock:
   Enabled: true
 
 Style/MapToHash:
@@ -689,13 +605,7 @@ Style/NegatedIfElseCondition:
 Style/NegatedUnless:
   Enabled: true
 
-Style/NestedFileDirname:
-  Enabled: true
-
 Style/Next:
-  Enabled: true
-
-Style/NilLambda:
   Enabled: true
 
 Style/NonNilCheck:
@@ -737,9 +647,6 @@ Style/PerlBackrefs:
 Style/PreferredHashMethods:
   Enabled: true
 
-Style/QuotedSymbols:
-  Enabled: true
-
 Style/RaiseArgs:
   Enabled: true
 
@@ -752,9 +659,6 @@ Style/RedundantCapitalW:
 Style/RedundantConstantBase:
   Enabled: true
 
-Style/RedundantDoubleSplatHashBraces:
-  Enabled: true
-
 Style/RedundantEach:
   Enabled: true
 
@@ -765,9 +669,6 @@ Style/RedundantSelfAssignment:
   Enabled: true
 
 Style/RedundantSelfAssignmentBranch:
-  Enabled: true
-
-Style/RedundantStringEscape:
   Enabled: true
 
 Style/RegexpLiteral:
@@ -792,9 +693,6 @@ Style/SoleNestedConditional:
   Enabled: true
 
 Style/SpecialGlobalVars:
-  Enabled: true
-
-Style/StringChars:
   Enabled: true
 
 Style/StringConcatenation:
