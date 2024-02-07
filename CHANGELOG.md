@@ -1,6 +1,14 @@
+## [0.6.0]
+
+- Enable rubocop-capybara and rubocop-factory_bot by default
+
+## [0.5.0]
+
+- Disable `Capybara/ClickLinkOrButtonStyle`
+
 ## [0.4.1]
 
-- Do not enable `Style/YodaExpression` cop by default
+- Disable `Style/YodaExpression`
 
 ## [0.1.0] - 2023-01-04
 
