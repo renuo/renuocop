@@ -426,6 +426,7 @@ Rails/WhereExists:
 Rails/SkipsModelValidations:
   Exclude:
     - 'spec/**/*.rb'
+    - 'db/migrate/*.rb'
 
 Security/IoMethods:
   Enabled: true
