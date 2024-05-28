@@ -1,3 +1,7 @@
+## [0.7.0]
+
+- Increase minimum standardrb version to 1.35.2
+
 ## [0.6.0]
 
 - Enable rubocop-capybara and rubocop-factory_bot by default
