@@ -443,6 +443,9 @@ Style/AccessorGrouping:
 Style/Alias:
   EnforcedStyle: prefer_alias
 
+Style/ArrayFirstLast:
+  Enabled: true
+
 Style/ArrayIntersect:
   Enabled: true
 
