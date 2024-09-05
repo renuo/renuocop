@@ -1,3 +1,7 @@
+## [0.8.0]
+
+- Finally change our default style from single quotes to double quotes
+
 ## [0.7.0]
 
 - Increase minimum standardrb version to 1.35.2
