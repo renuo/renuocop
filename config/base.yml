@@ -446,6 +446,9 @@ Style/Alias:
 Style/ArrayIntersect:
   Enabled: true
 
+Style/ArgumentsForwarding:
+  Enable: true
+
 Style/BisectedAttrAccessor:
   Enabled: true
 
@@ -459,6 +462,9 @@ Style/CaseLikeIf:
   Enabled: true
 
 Style/ClassAndModuleChildren:
+  Enabled: true
+
+Style/ClassMethods:
   Enabled: true
 
 Style/ClassVars:
