@@ -459,7 +459,7 @@ Style/CaseLikeIf:
   Enabled: true
 
 Style/ClassAndModuleChildren:
-  Enabled: true
+  EnforcedStyle: compact
 
 Style/ClassVars:
   Enabled: true
