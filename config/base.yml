@@ -86,6 +86,10 @@ Layout/SpaceInsideHashLiteralBraces:
 Layout/TrailingWhitespace:
   AllowInHeredoc: false
 
+
+Lint/UselessConstantScoping:
+  Enabled: false
+
 Lint/AmbiguousBlockAssociation:
   Enabled: true
 
