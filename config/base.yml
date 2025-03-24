@@ -745,6 +745,5 @@ AllCops:
     - 'public/**/*'
     - 'tmp/**/*'
     - 'db/schema.rb'
-    - 'db/migrate/**/*'
     - 'vendor/**/*'
     - 'node_modules/**/*'
