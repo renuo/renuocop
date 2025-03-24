@@ -1,3 +1,6 @@
+## [0.8.2]
+- Load `rubocop-rspec_rails` plugin by default
+
 ## [0.8.1]
 - Fix plugin inclusion warnings
 

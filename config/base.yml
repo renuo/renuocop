@@ -5,8 +5,9 @@ plugins:
   - rubocop-capybara
   - rubocop-factory_bot
   - rubocop-performance
+  - rubocop-rspec
+  - rubocop-rspec_rails
   - rubocop-rails
-  - rubocop-rspec  
 
 inherit_gem:
   standard: config/base.yml
