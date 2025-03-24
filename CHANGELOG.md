@@ -1,3 +1,6 @@
+## [0.8.1]
+- Fix plugin inclusion warnings
+
 ## [0.8.0]
 
 - Finally change our default style from single quotes to double quotes
