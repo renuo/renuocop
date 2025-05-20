@@ -214,6 +214,7 @@ Metrics/AbcSize:
   Enabled: true
   Exclude:
     - 'db/migrate/*'
+    - 'spec/system/**/*.rb'
 
 Metrics/BlockLength:
   Enabled: true
@@ -240,6 +241,8 @@ Metrics/CyclomaticComplexity:
 
 Metrics/MethodLength:
   Enabled: true
+  Exclude:
+    - 'spec/system/**/*.rb'
   CountAsOne:
     - array
     - hash
@@ -380,10 +383,7 @@ RSpec/DescribedClass:
   SkipBlocks: true
 
 RSpec/ExampleLength:
-  Exclude:
-    - 'spec/system/**/*'
-    - 'spec/requests/**/*'
-    - 'spec/views/**/*'
+  Enabled: false
 
 RSpec/InstanceVariable:
   Exclude:
