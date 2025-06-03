@@ -407,6 +407,9 @@ RSpec/SortMetadata:
 RSpec/VerifiedDoubles:
   Enabled: false
 
+RSpecRails/NegationBeValid:
+  Enabled: false
+
 Capybara/ClickLinkOrButtonStyle:
     Enabled: false
 
