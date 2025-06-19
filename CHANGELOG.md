@@ -1,3 +1,6 @@
+## [0.8.3]
+- Disable NegationBeValid cop
+
 ## [0.8.2]
 - Load `rubocop-rspec_rails` plugin by default
 
