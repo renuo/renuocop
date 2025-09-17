@@ -438,6 +438,9 @@ Rails/SkipsModelValidations:
     - 'spec/**/*.rb'
     - 'db/migrate/*.rb'
 
+Rails/FindByOrAssignmentMemoization:
+  Enabled: false
+
 Security/IoMethods:
   Enabled: true
 
