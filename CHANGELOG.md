@@ -1,3 +1,6 @@
+## [0.8.4]
+- More rules disabled 
+
 ## [0.8.3]
 - Disable NegationBeValid cop
 
