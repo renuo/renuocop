@@ -1,3 +1,6 @@
+## [0.8.5]
+- Update cop name (`Naming/PredicateName` -> `Naming/PredicatePrefix`)
+
 ## [0.8.4]
 - More rules disabled 
 
