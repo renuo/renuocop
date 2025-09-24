@@ -56,7 +56,7 @@ Layout/FirstArrayElementIndentation:
   EnforcedStyle: consistent
 
 Layout/FirstHashElementIndentation:
-  EnforcedStyle: special_inside_parentheses
+  EnforcedStyle: consistent
 
 Layout/FirstParameterIndentation:
   Enabled: true
