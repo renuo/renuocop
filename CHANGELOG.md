@@ -1,3 +1,6 @@
+## [0.8.6]
+- Set `Layout/FirstArrayElementIndentation` and `Layout/FirstHashElementIndentation` to `consistent`
+
 ## [0.8.5]
 - Update cop name (`Naming/PredicateName` -> `Naming/PredicatePrefix`)
 
