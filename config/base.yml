@@ -52,12 +52,6 @@ Layout/ExtraSpacing:
 Layout/FirstArgumentIndentation:
   EnforcedStyle: special_for_inner_method_call_in_parentheses
 
-Layout/FirstArrayElementIndentation:
-  EnforcedStyle: special_inside_parentheses
-
-Layout/FirstHashElementIndentation:
-  EnforcedStyle: special_inside_parentheses
-
 Layout/FirstParameterIndentation:
   Enabled: true
 
