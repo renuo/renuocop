@@ -217,6 +217,10 @@ Metrics/BlockLength:
     - 'config/environments/**/*.rb'
     - 'config/routes.rb'
     - 'db/**/*'
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
 
 Metrics/BlockNesting:
   Enabled: true

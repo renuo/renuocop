@@ -1,3 +1,6 @@
+## [0.8.7]
+- Add `CountAsOne` option to `Metrics/BlockLength` cop
+
 ## [0.8.6]
 - Set `Layout/FirstArrayElementIndentation` and `Layout/FirstHashElementIndentation` to `consistent`
 
