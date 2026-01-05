@@ -212,15 +212,15 @@ Metrics/AbcSize:
 
 Metrics/BlockLength:
   Enabled: true
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
   Exclude:
     - 'spec/**/*.rb'
     - 'config/environments/**/*.rb'
     - 'config/routes.rb'
     - 'db/**/*'
-  CountAsOne:
-    - array
-    - hash
-    - heredoc
 
 Metrics/BlockNesting:
   Enabled: true
@@ -239,12 +239,12 @@ Metrics/CyclomaticComplexity:
 
 Metrics/MethodLength:
   Enabled: true
-  Exclude:
-    - 'spec/system/**/*.rb'
   CountAsOne:
     - array
     - hash
     - heredoc
+  Exclude:
+    - 'spec/system/**/*.rb'
 
 Metrics/ModuleLength:
   Enabled: true
