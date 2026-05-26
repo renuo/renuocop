@@ -1,3 +1,7 @@
+## [0.8.8]
+- Remove GuardClause cop
+- Exclude all schema files
+
 ## [0.8.7]
 - Add `CountAsOne` option to `Metrics/BlockLength` cop
 
