@@ -1,3 +1,6 @@
+## [0.8.9]
+- Remove deprecated `Capybara/ClickLinkOrButtonStyle` cop (removed in rubocop-capybara 3.0.0)
+
 ## [0.8.8]
 - Remove GuardClause cop
 - Exclude all schema files
