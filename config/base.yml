@@ -408,9 +408,6 @@ RSpec/VerifiedDoubles:
 RSpecRails/NegationBeValid:
   Enabled: false
 
-Capybara/ClickLinkOrButtonStyle:
-    Enabled: false
-
 Rails/ActionControllerFlashBeforeRender:
   Enabled: false
 
