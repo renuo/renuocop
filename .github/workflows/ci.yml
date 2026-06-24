@@ -16,5 +16,5 @@ jobs:
           ruby-version: 3.4
           bundler-cache: true
 
-      - name: Rubocop
-        run: bundle exec rubocop
+      - name: All checks
+        run: bin/check
