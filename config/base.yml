@@ -99,6 +99,9 @@ Lint/AmbiguousRange:
 Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
 
+Lint/CopDirectiveSyntax:
+  Enabled: true
+
 Lint/DuplicateBranch:
   Enabled: true
 
@@ -491,9 +494,6 @@ Style/ConcatArrayLiterals:
   Enabled: true
 
 Style/DocumentDynamicEvalDefinition:
-  Enabled: true
-
-Style/DoubleCopDisableDirective:
   Enabled: true
 
 Style/DoubleNegation:
