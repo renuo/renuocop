@@ -51,8 +51,18 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 ### Release
 
-To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, 
-which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+1. Bump the version in `lib/renuocop/version.rb`, update `CHANGELOG.md` and commit to `main`.
+1. Tag the commit with the bare version (no `v` prefix, unlike the tags up to `v0.8.10`) and push the tag:
+
+   ```bash
+   git tag -a 1.2.3 -m 1.2.3
+   git push origin 1.2.3
+   ```
+
+1. Create a GitHub release for the tag with the changelog section as notes.
+
+Semaphore runs the tests on the tag and, when they pass, promotes the `release` pipeline, which pushes the gem to
+[rubygems.org](https://rubygems.org). It fails when the tag does not match the gem version.
 
 ## Contributing
 
