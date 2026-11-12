@@ -1,0 +1,45 @@
+version: "v1.0"
+name: renuocop
+agent:
+  machine:
+    type: f1-standard-2
+    os_image: ubuntu2404
+auto_cancel:
+  running:
+    when: "true"
+
+global_job_config:
+  env_vars:
+    - name: RUBY_VERSION
+      value: "3.4"
+  prologue:
+    commands:
+      - checkout --use-cache
+      - sem-version ruby $RUBY_VERSION -f
+      - bundle config set path 'vendor/bundle'
+      - bundle install -j 4
+
+blocks:
+  - name: linter
+    execution_time_limit:
+      minutes: 5
+    dependencies: []
+    task:
+      jobs:
+        - name: fastcheck
+          commands:
+            - bin/fastcheck
+  - name: tests
+    execution_time_limit:
+      minutes: 10
+    dependencies: []
+    task:
+      jobs:
+        - name: check
+          commands:
+            - bin/check
+promotions:
+  - name: release
+    pipeline_file: release.yml
+    auto_promote:
+      when: "result = 'passed' and tag =~ '^[0-9]+[.][0-9]+[.][0-9]+$'"
